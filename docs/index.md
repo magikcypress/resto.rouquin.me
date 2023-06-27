@@ -1,13 +1,9 @@
 ---
 home: false
-heroImage: /img/cat-roux.webp
 description: false
 sidebar: false
 search: false
 ---
-
-## Liste des restaurants Parisiens
-
 
 <MapResto/>
 
