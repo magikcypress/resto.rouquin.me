@@ -1,0 +1,79 @@
+/**
+ * Custom palette here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/zh/config/#palette-styl
+ */
+
+:root {
+    // brand colors
+    --c-brand: #4176f1;
+    --c-brand-light: #d2d9e9;
+    --c-text-lighter: #8094a8;
+
+    --c-bg-page: url("/img/ground.gif");
+
+    --c-text-accent: var(--c-brand);
+    --c-tip: #4176f1;
+    --c-tip-bg: #e4eaf4;
+    --c-tip-text: var(--c-brand);
+    --c-tip-text-accent: var(--c-text-accent);
+    --c-danger: #ffffff;
+    --c-danger-bg: #f9f9f9;
+    --c-danger-title: #727272;
+    --c-danger-text: #727272;
+    --c-danger-text-accent: var(--c-text-accent);
+}
+
+.custom-container.danger {
+    background: no-repeat 76%/65px url("/img/accolade.png")!important;
+    background-position: top 0% right 0%!important;
+  }
+  
+
+// plugin-back-to-top
+.back-to-top {
+    --back-to-top-color: var(--c-brand);
+    --back-to-top-color-hover: var(--c-brand-light);
+}
+
+html.dark {
+    // brand colors
+    --c-brand: #4176f1;
+    --c-brand-light: #d2d9e9;
+
+    --c-bg-page: url("/img/ground-dark.gif");
+  
+    // background colors
+    --c-bg: #22272e;
+    --c-bg-light: #2b313a;
+    --c-bg-lighter: #262c34;
+  
+    // text colors
+    --c-text: #ffffff;
+    --c-text-light: #96a7b7;
+    --c-text-lighter: #d2d9e9;
+    --c-text-lightest: #8094a8;
+    --c-text-quote: #ffffff;
+  
+    // border colors
+    --c-border: #3e4c5a;
+    --c-border-dark: #34404c;
+  
+    // custom container colors
+    --c-tip: var(--c-brand);
+    --c-tip-bg: var(--c-bg);
+    --c-danger: #22272e;
+    --c-danger-bg: #333a44;
+    --c-danger-title: #ffffff;
+    --c-danger-text: #ffffff;
+    --c-danger-text-accent: var(--c-text-accent);
+  
+    // code blocks vars
+    --code-hl-bg-color: #363b46;
+}
+
+
+html.dark .custom-container.danger {
+    background: no-repeat 76%/65px url("/img/accolade-dark.png")!important;
+    background-position: top 0% right 0%!important;
+}
