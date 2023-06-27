@@ -237,3 +237,5 @@ Rue Rampal Paris 75019 : +33 1 42 49 66 80
 :::
 
 <Button/>
+
+Si vous rencontrez un problème sur le contenu de ce site, vous pouvez m'écrire sur cyp@duck.com
