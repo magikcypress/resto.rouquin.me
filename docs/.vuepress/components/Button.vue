@@ -1,7 +1,6 @@
 <template>
     <div class="grid-container">
         <ButtonBuyCoffee/>
-        <ButtonGo/>
-        <ButtonGoLive/>       
+        <ButtonGo/>      
     </div>
 </template>

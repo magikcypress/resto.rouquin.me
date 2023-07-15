@@ -9,11 +9,11 @@ export default {
   /**
    * Ref：https://v2.vuepress.vuejs.org/guide/configuration.html
    */
-  title: 'Les restaurants Parisiens',
+  title: 'Restaurants Parisiens',
   /**
    * Ref：https://v2.vuepress.vuejs.org/guide/configuration.html
    */
-  description: 'Les restaurants Parisiens - Eating',
+  description: 'Restaurants Parisiens - Eating',
   /**
    * Ref：https://npmmirror.com/package/vuepress-plugin-ipfs
    */
@@ -45,7 +45,7 @@ export default {
     // As a special case, the default locale can use '/' as its path.
     '/': {
       lang: 'Français', // this will be set as the lang attribute on <html>
-      title: 'Les restaurants Parisiens',
+      title: 'Restaurants Parisiens',
       description: 'Passion, Manger, Eating, Bonne Franquette'
     }
   },
