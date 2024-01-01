@@ -3,7 +3,7 @@
       <l-map
         :zoom="zoom"
         :center="center"
-        style="z-index:0"
+        style="z-index:1"
         :useGlobalLeaflet="false"
       >
         <l-tile-layer
@@ -77,7 +77,7 @@
             {"type":"Feature","properties":{"_icon": "/img/maker-icon.png", "name":"<a href='#Pacifique'>Pacifique 🇨🇳</a>"},"geometry":{"type":"Point","coordinates":[2.379849,48.8731596]}},
             {"type":"Feature","properties":{"_icon": "/img/maker-icon.png", "name":"<a href='#O Fil Rouge'>O Fil Rouge 🇫🇷</a>"},"geometry":{"type":"Point","coordinates":[2.2869808,48.8481999]}},
             {"type":"Feature","properties":{"_icon": "/img/maker-icon.png", "name":"<a href='#Le temps des cerises'>Le temps des cerises 🇫🇷</a>"},"geometry":{"type":"Point","coordinates":[2.363962506697641, 48.853627380433295]}},
-            {"type":"Feature","properties":{"_icon": "/img/maker-icon.png", "name":"<a href='#Bouillon Racine'>Bouillon Racine🇫🇷</a>"},"geometry":{"type":"Point","coordinates":[2.342043454946119, 48.85036658824408]}},
+            {"type":"Feature","properties":{"_icon": "/img/maker-icon.png", "name":"<a href='#Bouillon Racine'>Bouillon Racine 🇫🇷</a>"},"geometry":{"type":"Point","coordinates":[2.342043454946119, 48.85036658824408]}},
             ],
         },
         geojsonOptions: {
