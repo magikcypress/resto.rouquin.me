@@ -232,6 +232,13 @@ Rue Rampal Paris 75019 : +33 1 42 49 66 80
 31 Rue de la Cerisaie, 75004 Paris : +33 1 42 72 08 63
 :::
 
+### <a href="http://bouillonracine.fr/" id="Bouillon Racine<">Bouillon Racine</a> <Badge type="tip" text="Français" vertical="middle" />
+> Restaurant Français
+
+::: tip Adresse
+3 Rue Racine, 75006 Paris : +33 1 44 32 15 60
+:::
+
 <Button/>
 
 Si vous rencontrez un problème sur le contenu de ce site, vous pouvez m'écrire sur cyp@duck.com
